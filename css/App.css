@@ -36,6 +36,18 @@
   width: 80%;
   margin-left: 10%;
 }
+
+@media screen and (max-width: 500px){
+  .header{
+    width: 20vw;
+    height: 85vh;
+  }
+
+  .header__bottom > a > img{
+    width: 90%;
+    height: 90%;
+  }
+}
 .menu > ul{
   list-style: none;
   display: flex;
@@ -52,6 +64,12 @@
   text-decoration: none;
   color: black;
   font-size: 18px;
+}
+
+@media screen and (max-width: 500px){
+  .menu__item > a{
+    font-size: 24px;
+  }
 }
 .hero__title{
   font-size: 30px;
@@ -101,6 +119,12 @@
   display: flex;
   justify-content: center;
   margin-top: 50px;
+}
+
+@media screen and (max-width: 500px){
+  .SobreMi__text__left{
+    margin-top: initial;
+  }
 }
 .VerMas__button{
   width: 150px;
@@ -165,6 +189,12 @@
   margin-right: 50px;
   margin-left: auto;
 }
+
+@media screen and (max-width: 500px){
+  .Card{
+    margin-left: 30px;
+  }
+}
 .footer{
   margin-top: 100px;
   background: #00314A;
@@ -194,4 +224,10 @@ h2{
 p{
   color: #749DB1;
   font-size: 24px;
+}
+
+@media screen and (max-width: 500px){
+  .main{
+    grid-template-columns: 20vw 1fr;
+  }
 }
