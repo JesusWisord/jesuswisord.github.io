@@ -1,3 +1,29 @@
+.Translation__button{
+  margin-right: 10px;
+  background-color: #2E9DD5;
+  font-size: 16px;
+  border-radius: 25px;
+  height: 25px;
+  padding: 0 10px;
+  color: white;
+  outline: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.Translation__button:hover{
+  background-color: #045984;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+@media screen and (max-width: 350px){
+  .Translation__button{
+    font-size: 12px;
+  }
+}
 .Card{
   border: 1px solid black;
   width: 600px;
@@ -257,6 +283,13 @@
 }
 
 
+@media screen and (max-width: 350px){
+  .menu__item > a{
+    font-size: 12px;
+  }
+}
+
+
 .Proyectos{
   display: grid;
   grid-template-columns: repeat(3,1fr);
@@ -324,6 +357,8 @@
   font-size: 24px;
   color: #D8F2FF;
   outline: none;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 
@@ -331,6 +366,8 @@
   background-color: #045984;
   color: white;
   cursor: pointer;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 
